@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio FizzBuzz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Desafio FizzBuzz</h1>
+    <form disabled id="form1" onsubmit="cantNumeros(event)">
+        <label>Cantidad de numeros =></label>
+        <input type="text" name="cant" placeholder="(min 20)">
+        <input type="submit" value="INGRESAR">
+    </form>
+    <br>
+    <form id="form2" onsubmit="ingresoFizzBuzz(event)">
+        <div id="fizz">
+        <h2>Fizz</h2>
+        <label>Ingresar palabra</label>
+        <input type="text" name="string1" placeholder="Ingresar texto">
+        <label>Ingresar numero</label>
+        <input type="text" name="num1" placeholder="Ingresar numero">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="buzz">
+        <h3>Buzz</h3>
+        <label>Ingresar palabra</label>
+        <input type="text" name="string2" placeholder="Ingresar texto">
+        <label>Ingresar numero</label>
+        <input type="text" name="num2" placeholder="Ingresar numero">
+        </div>
+        <input type="submit" value="INGRESAR" style="display: flex; margin-left: 618px; margin-top: 50px; font-size: 20px;">
+    </form>
+
+    <div id="container">
+        <p id="res"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

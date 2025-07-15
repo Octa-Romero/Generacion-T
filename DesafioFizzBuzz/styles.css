@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+    background-image: url("https://i0.wp.com/notlaura.com/wp-content/uploads/2021/04/fizzbuzzpatterns.png?fit=1742%2C1262&ssl=1");
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+input{
+    font-size: 14px;
+}
+
+#form1{
+    font-size: 25px;
+}
+
+#form2{
+    visibility: hidden;
+}
+
+#fizz{
+    border: 5px black ridge;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+#fizz h2{
+    font-size: 25px;
+    border-bottom: 2px black ridge;
+    margin-bottom: 10px;
+}
+
+#buzz{
+    border: 5px black ridge;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+#buzz h3{
+    font-size: 25px;
+    border-bottom: 2px black ridge;
+    margin-bottom: 10px;
+}
+
+#form2 input{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#container{
+    visibility: hidden;
+    margin-top: 50px;
+    display: inline-block;
+    border: 4px ridge black ;
+    background-color:white;
+    width: 900px;
+}

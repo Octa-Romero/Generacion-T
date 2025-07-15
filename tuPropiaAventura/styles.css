@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-size: 25px;
+    background-image: url("https://wallpapers.com/images/featured/estadio-de-futbol-wpbk2e4mrt3gz1mz.jpg");
+    background-size: cover;
+}
+
+img{
+    margin-top: 100px;
+}
+
+#boca{
+    margin-right: 25px;
+    border: 3px black solid;
+}
+
+#river{
+    margin-left: 25px;
+    border: 3px black solid
+}
+
+a{
+    margin-right: 110px;
+    margin-left: 125px;
+    text-decoration: none;
+    color: black;
+}
+
+#opcion1{
+    border: 5px black ridge;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+#opcion2{
+    border: 5px black ridge;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+p{
+    font-size: 40px;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 70px;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_DFbwHTffZeQuWjKkBzjGrEt9PmtGip6yw&s");
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+form{
+    margin-top: 150px;
+}
+
+input{
+    font-size: 20px;
+}
+
+select{
+    font-size: 20px;
+}
+
+#container{
+    visibility: hidden;
+    margin-top: 200px;
+    display: inline-block;
+    border: 4px ridge black ;
+    background-color:white;
+    width: 800px;
+    height: 100px;
+}
+
+#container p{
+    font-size: 20px;
+}

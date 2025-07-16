@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    background-image: url("https://previews.123rf.com/images/krol/krol1608/krol160800001/60555798-seamless-background-for-games-apps-or-mobile-development-cartoon-nature-landscape-with-forest.jpg");
+}
+
+h1{
+    font-size: 125%;
+    border: 8px darkred ridge;
+    box-shadow: 0px 0px 4px 3px;
+    display: inline-block;
+    background-color:silver;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#text
+{
+    font-size: 15px;
+}
+
+.main{
+    border: 4.5px darkred ridge;
+    border-radius: 15% 15% 15% 15%;
+    display: inline-block;
+    background-color:silver;
+    padding: 10px 10px 10px 10px;
+}
+
+.main p{
+    border-bottom: 4.5px black solid;
+    padding-bottom: 6px;
+}
+
+#randomWord{
+    text-decoration:underline;
+}
+
+#end-game-container{
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#end-game-container button{
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid greenyellow;
+    border-radius: 20% 20% 20% 20%;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+#end-game-container p{
+    font-size: 20px;
+    border: 2px ridge orange;
+    display: inline-block;
+    background-color: white;
+}
+
+#end-game-container h2{
+    font-size: 25px;
+    border: 8px darkred ridge;
+    box-shadow: 0px 0px 4px 3px;
+    display: inline-block;
+    background-color:silver;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

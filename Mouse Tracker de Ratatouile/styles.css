@@ -1,0 +1,9 @@
+body{
+    background-image: url("https://i.imgur.com/jnCXdAx.jpg");
+    height: 100%;
+}
+
+#ratatouile{
+    position: fixed;
+    transition: 2s;
+}
